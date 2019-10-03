@@ -8,7 +8,8 @@ import './App.css';
 // import HookCounterUE1 from './useEffect/HookCounterUE1';
 // import HookMouse from './useEffect/HookMouse'
 // import MouseContainer from './useEffect/MouseContainer'
-import HookIntervalCounter from './useEffect/HookIntervalCounter';
+// import HookIntervalCounter from './useEffect/HookIntervalCounter';
+import DataFetching from './useEffectAPI/DataFetching';
 function App() {
   return (
     <div className="App">
@@ -19,8 +20,8 @@ function App() {
       {/* <HookCounterUE1 /> */}
       {/* <HookMouse/> */}
       {/* <MouseContainer/> */}
-      <HookIntervalCounter />
-
+      {/* <HookIntervalCounter /> */}
+      <DataFetching />
     </div>
   );
 }
