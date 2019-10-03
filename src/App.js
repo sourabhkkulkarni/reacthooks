@@ -7,7 +7,8 @@ import './App.css';
 // import HookCounter4 from './HookCounter4'
 // import HookCounterUE1 from './useEffect/HookCounterUE1';
 // import HookMouse from './useEffect/HookMouse'
-import MouseContainer from './useEffect/MouseContainer'
+// import MouseContainer from './useEffect/MouseContainer'
+import HookIntervalCounter from './useEffect/HookIntervalCounter';
 function App() {
   return (
     <div className="App">
@@ -17,7 +18,9 @@ function App() {
       {/* <HookCounter4 /> */}
       {/* <HookCounterUE1 /> */}
       {/* <HookMouse/> */}
-      <MouseContainer/>
+      {/* <MouseContainer/> */}
+      <HookIntervalCounter />
+
     </div>
   );
 }
