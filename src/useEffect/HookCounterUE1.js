@@ -9,7 +9,7 @@ const HookCounterUE1 = () => {
 	useEffect(() => {
 		console.log("UPdating document title");
 		document.title = `you clicked ${count} times`
-	},[count]);
+	},[count]); // conditionally rendering
 	return (
 		<div>
 			<input type="text" value={name} onChange={e => setName(e.target.value)} />

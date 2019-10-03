@@ -6,7 +6,8 @@ import './App.css';
 // import HookComponent3 from './HookComponent3'
 // import HookCounter4 from './HookCounter4'
 // import HookCounterUE1 from './useEffect/HookCounterUE1';
-import HookMouse from './useEffect/HookMouse'
+// import HookMouse from './useEffect/HookMouse'
+import MouseContainer from './useEffect/MouseContainer'
 function App() {
   return (
     <div className="App">
@@ -15,7 +16,8 @@ function App() {
       {/* <HookComponent3 /> */}
       {/* <HookCounter4 /> */}
       {/* <HookCounterUE1 /> */}
-      <HookMouse/>
+      {/* <HookMouse/> */}
+      <MouseContainer/>
     </div>
   );
 }
